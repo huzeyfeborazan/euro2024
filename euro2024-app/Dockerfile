@@ -7,6 +7,7 @@ WORKDIR /app
 ADD . /app
 
 # Upgrade pip before installing any packages
+RUN apt-get update && apt-get install -y gcc
 RUN pip install --upgrade pip
 
 # Install any needed packages specified in requirements.txt

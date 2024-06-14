@@ -13,9 +13,9 @@ services:
     depends_on:
       - mongo
     environment:
-      VIRTUAL_HOST: euro2024.huzeyfe.uk
+      VIRTUAL_HOST: euro2024.huzeyfe.name
       VIRTUAL_PORT: 5001
-      LETSENCRYPT_HOST: huzeyfe.uk
+      LETSENCRYPT_HOST: euro2024.huzeyfe.name
       LETSENCRYPT_EMAIL: huzeyfeborazan@gmail.com
 
   mongo:
