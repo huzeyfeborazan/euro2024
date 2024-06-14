@@ -9,12 +9,12 @@ services:
       - ./euro2024-app:/app
     command: sh -c "python insert_data.py && gunicorn -c gunicorn_config.py app:app"
     ports:
-      - "5001:5000"
+      - "5000:5000"
     depends_on:
       - mongo
     environment:
       VIRTUAL_HOST: euro2024.huzeyfe.name
-      VIRTUAL_PORT: 5001
+      VIRTUAL_PORT: 5000
       LETSENCRYPT_HOST: euro2024.huzeyfe.name
       LETSENCRYPT_EMAIL: huzeyfeborazan@gmail.com
     networks:
