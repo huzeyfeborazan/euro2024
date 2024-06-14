@@ -1,0 +1,146 @@
+[
+    {
+        "_id": "ger",
+        "name": "Germany",
+        "code": "GER",
+        "group": "A"
+    },
+    {
+        "_id": "sco",
+        "name": "Scotland",
+        "code": "SCO",
+        "group": "A"
+    },
+    {
+        "_id": "hun",
+        "name": "Hungary",
+        "code": "HUN",
+        "group": "A"
+    },
+    {
+        "_id": "sui",
+        "name": "Switzerland",
+        "code": "SUI",
+        "group": "A"
+    },
+    {
+        "_id": "esp",
+        "name": "Spain",
+        "code": "ESP",
+        "group": "B"
+    },
+    {
+        "_id": "cro",
+        "name": "Croatia",
+        "code": "CRO",
+        "group": "B"
+    },
+    {
+        "_id": "ita",
+        "name": "Italy",
+        "code": "ITA",
+        "group": "B"
+    },
+    {
+        "_id": "alb",
+        "name": "Albania",
+        "code": "ALB",
+        "group": "B"
+    },
+    {
+        "_id": "srb",
+        "name": "Serbia",
+        "code": "SRB",
+        "group": "C"
+    },
+    {
+        "_id": "eng",
+        "name": "England",
+        "code": "ENG",
+        "group": "C"
+    },
+    {
+        "_id": "svn",
+        "name": "Slovenia",
+        "code": "SVN",
+        "group": "C"
+    },
+    {
+        "_id": "den",
+        "name": "Denmark",
+        "code": "DEN",
+        "group": "C"
+    },
+    {
+        "_id": "pol",
+        "name": "Poland",
+        "code": "POL",
+        "group": "D"
+    },
+    {
+        "_id": "ned",
+        "name": "Netherlands",
+        "code": "NED",
+        "group": "D"
+    },
+    {
+        "_id": "aut",
+        "name": "Austria",
+        "code": "AUT",
+        "group": "D"
+    },
+    {
+        "_id": "fra",
+        "name": "France",
+        "code": "FRA",
+        "group": "D"
+    },
+    {
+        "_id": "bel",
+        "name": "Belgium",
+        "code": "BEL",
+        "group": "E"
+    },
+    {
+        "_id": "svk",
+        "name": "Slovakia",
+        "code": "SVK",
+        "group": "E"
+    },
+    {
+        "_id": "rou",
+        "name": "Romania",
+        "code": "ROU",
+        "group": "E"
+    },
+    {
+        "_id": "ukr",
+        "name": "Ukraine",
+        "code": "UKR",
+        "group": "E"
+    },
+    {
+        "_id": "tur",
+        "name": "Türkiye",
+        "code": "TUR",
+        "group": "F"
+    },
+    {
+        "_id": "geo",
+        "name": "Georgia",
+        "code": "GEO",
+        "group": "F"
+    },
+    {
+        "_id": "por",
+        "name": "Portugal",
+        "code": "POR",
+        "group": "F"
+    },
+    {
+        "_id": "cze",
+        "name": "Czechia",
+        "code": "CZE",
+        "group": "F"
+    }
+]

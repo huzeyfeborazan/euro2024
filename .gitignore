@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+*.egg-info/
+pip-wheel-metadata/
+*.dist-info/
+
+# Flask specific
+instance/
+.webassets-cache
+
+# Pytest
+.cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Environments
+.env
+.env.*
+
+# Migrations
+migrations/
+
+# Docker
+*.log
+*.pid
+*.swp
+docker-compose.override.yml
+docker-compose.override.yml
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# PyCharm
+.idea/
+*.iml
+workspace.xml
+tasks.xml
+usage.statistics.xml
+datalore/
+*.orig
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Thumbnails
+._*
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/

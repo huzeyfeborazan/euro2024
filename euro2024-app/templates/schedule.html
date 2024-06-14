@@ -1,0 +1,42 @@
+{% extends "layouts/default.html" %}
+{% set active_page = "teams" %}
+
+{% block body %}
+
+	<header class="section-header" style="margin-top: 50px;">
+      <h3>Teams</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+    </header>
+
+    <div class="row">
+
+    	<table class="table table-striped">
+		  <thead>
+		    <tr>
+		      <th scope="col">#</th>
+		      <th scope="col">Team</th>
+		      <th scope="col">MP</th>
+		      <th scope="col">GF</th>
+		      <th scope="col">GA</th>
+		      <th scope="col">P</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		  	{% for team in teams %}
+		  		<tr>
+			      <th scope="row">{{loop.index}}</th>
+			      <td class="team">
+					<img src="https://img.uefa.com/imgml/flags/240x240/{{ team._id }}.png" alt="{{ team.code}}" title="{{ team.code}}">
+			      	{{ team.name }}
+			      </td>
+			      <td>0</td>
+			      <td>0</td>
+			      <td>0</td>
+			      <td>0</td>
+			    </tr>
+			{% endfor %}
+		  </tbody>
+		</table>
+
+	</div>
+{% endblock %}

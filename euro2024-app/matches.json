@@ -1,0 +1,461 @@
+[
+    {
+        "match_number": 1,
+        "home_team_id": "ger",
+        "away_team_id": "sco",
+        "date": "2024-06-14T20:00:00Z",
+        "stadium": "Olympiastadion Berlin",
+        "city": "Berlin",
+        "match_category": "Group stage - Matchday 1"
+    },
+    {
+        "match_number": 2,
+        "home_team_id": "hun",
+        "away_team_id": "sui",
+        "date": "2024-06-15T14:00:00Z",
+        "stadium": "Leipzig Stadium",
+        "city": "Leipzig",
+        "match_category": "Group stage - Matchday 1"
+    },
+    {
+        "match_number": 3,
+        "home_team_id": "esp",
+        "away_team_id": "cro",
+        "date": "2024-06-15T17:00:00Z",
+        "stadium": "Volksparkstadion Hamburg",
+        "city": "Hamburg",
+        "match_category": "Group stage - Matchday 1"
+    },
+    {
+        "match_number": 4,
+        "home_team_id": "ita",
+        "away_team_id": "alb",
+        "date": "2024-06-16T20:00:00Z",
+        "stadium": "BVB Stadion Dortmund",
+        "city": "Dortmund",
+        "match_category": "Group stage - Matchday 1"
+    },
+    {
+        "match_number": 5,
+        "home_team_id": "srb",
+        "away_team_id": "eng",
+        "date": "2024-06-16T20:00:00Z",
+        "stadium": "Arena AufSchalke",
+        "city": "Gelsenkirchen",
+        "match_category": "Group stage - Matchday 1"
+    },
+    {
+        "match_number": 6,
+        "home_team_id": "svn",
+        "away_team_id": "den",
+        "date": "2024-06-17T17:00:00Z",
+        "stadium": "Düsseldorf Arena",
+        "city": "Düsseldorf",
+        "match_category": "Group stage - Matchday 1"
+    },
+    {
+        "match_number": 7,
+        "home_team_id": "pol",
+        "away_team_id": "ned",
+        "date": "2024-06-18T14:00:00Z",
+        "stadium": "Cologne Stadium",
+        "city": "Cologne",
+        "match_category": "Group stage - Matchday 1"
+    },
+    {
+        "match_number": 8,
+        "home_team_id": "aut",
+        "away_team_id": "fra",
+        "date": "2024-06-18T20:00:00Z",
+        "stadium": "Frankfurt Arena",
+        "city": "Frankfurt",
+        "match_category": "Group stage - Matchday 1"
+    },
+    {
+        "match_number": 9,
+        "home_team_id": "bel",
+        "away_team_id": "svk",
+        "date": "2024-06-19T17:00:00Z",
+        "stadium": "Stuttgart Arena",
+        "city": "Stuttgart",
+        "match_category": "Group stage - Matchday 1"
+    },
+    {
+        "match_number": 10,
+        "home_team_id": "rou",
+        "away_team_id": "ukr",
+        "date": "2024-06-19T14:00:00Z",
+        "stadium": "Munich Football Arena",
+        "city": "Munich",
+        "match_category": "Group stage - Matchday 1"
+    },
+    {
+        "match_number": 11,
+        "home_team_id": "tur",
+        "away_team_id": "geo",
+        "date": "2024-06-19T17:00:00Z",
+        "stadium": "Olympiastadion Berlin",
+        "city": "Berlin",
+        "match_category": "Group stage - Matchday 1"
+    },
+    {
+        "match_number": 12,
+        "home_team_id": "por",
+        "away_team_id": "cze",
+        "date": "2024-06-19T20:00:00Z",
+        "stadium": "Leipzig Stadium",
+        "city": "Leipzig",
+        "match_category": "Group stage - Matchday 1"
+    },
+    {
+        "match_number": 13,
+        "home_team_id": "sco",
+        "away_team_id": "sui",
+        "date": "2024-06-21T20:00:00Z",
+        "stadium": "Volksparkstadion Hamburg",
+        "city": "Hamburg",
+        "match_category": "Group stage - Matchday 2"
+    },
+    {
+        "match_number": 14,
+        "home_team_id": "ger",
+        "away_team_id": "hun",
+        "date": "2024-06-22T17:00:00Z",
+        "stadium": "BVB Stadion Dortmund",
+        "city": "Dortmund",
+        "match_category": "Group stage - Matchday 2"
+    },
+    {
+        "match_number": 15,
+        "home_team_id": "cro",
+        "away_team_id": "alb",
+        "date": "2024-06-20T14:00:00Z",
+        "stadium": "Arena AufSchalke",
+        "city": "Gelsenkirchen",
+        "match_category": "Group stage - Matchday 2"
+    },
+    {
+        "match_number": 16,
+        "home_team_id": "esp",
+        "away_team_id": "ita",
+        "date": "2024-06-21T20:00:00Z",
+        "stadium": "Düsseldorf Arena",
+        "city": "Düsseldorf",
+        "match_category": "Group stage - Matchday 2"
+    },
+    {
+        "match_number": 17,
+        "home_team_id": "den",
+        "away_team_id": "eng",
+        "date": "2024-06-22T17:00:00Z",
+        "stadium": "Cologne Stadium",
+        "city": "Cologne",
+        "match_category": "Group stage - Matchday 2"
+    },
+    {
+        "match_number": 18,
+        "home_team_id": "svn",
+        "away_team_id": "srb",
+        "date": "2024-06-22T14:00:00Z",
+        "stadium": "Frankfurt Arena",
+        "city": "Frankfurt",
+        "match_category": "Group stage - Matchday 2"
+    },
+    {
+        "match_number": 19,
+        "home_team_id": "pol",
+        "away_team_id": "aut",
+        "date": "2024-06-23T17:00:00Z",
+        "stadium": "Stuttgart Arena",
+        "city": "Stuttgart",
+        "match_category": "Group stage - Matchday 2"
+    },
+    {
+        "match_number": 20,
+        "home_team_id": "ned",
+        "away_team_id": "fra",
+        "date": "2024-06-23T20:00:00Z",
+        "stadium": "Munich Football Arena",
+        "city": "Munich",
+        "match_category": "Group stage - Matchday 2"
+    },
+    {
+        "match_number": 21,
+        "home_team_id": "svk",
+        "away_team_id": "ukr",
+        "date": "2024-06-24T14:00:00Z",
+        "stadium": "Olympiastadion Berlin",
+        "city": "Berlin",
+        "match_category": "Group stage - Matchday 2"
+    },
+    {
+        "match_number": 22,
+        "home_team_id": "bel",
+        "away_team_id": "rou",
+        "date": "2024-06-24T20:00:00Z",
+        "stadium": "Leipzig Stadium",
+        "city": "Leipzig",
+        "match_category": "Group stage - Matchday 2"
+    },
+    {
+        "match_number": 23,
+        "home_team_id": "tur",
+        "away_team_id": "por",
+        "date": "2024-06-25T17:00:00Z",
+        "stadium": "Volksparkstadion Hamburg",
+        "city": "Hamburg",
+        "match_category": "Group stage - Matchday 2"
+    },
+    {
+        "match_number": 24,
+        "home_team_id": "geo",
+        "away_team_id": "cze",
+        "date": "2024-06-25T14:00:00Z",
+        "stadium": "BVB Stadion Dortmund",
+        "city": "Dortmund",
+        "match_category": "Group stage - Matchday 2"
+    },
+    {
+        "match_number": 25,
+        "home_team_id": "sui",
+        "away_team_id": "ger",
+        "date": "2024-06-25T20:00:00Z",
+        "stadium": "Arena AufSchalke",
+        "city": "Gelsenkirchen",
+        "match_category": "Group stage - Matchday 3"
+    },
+    {
+        "match_number": 26,
+        "home_team_id": "sco",
+        "away_team_id": "hun",
+        "date": "2024-06-26T20:00:00Z",
+        "stadium": "Düsseldorf Arena",
+        "city": "Düsseldorf",
+        "match_category": "Group stage - Matchday 3"
+    },
+    {
+        "match_number": 27,
+        "home_team_id": "alb",
+        "away_team_id": "esp",
+        "date": "2024-06-26T20:00:00Z",
+        "stadium": "Cologne Stadium",
+        "city": "Cologne",
+        "match_category": "Group stage - Matchday 3"
+    },
+    {
+        "match_number": 28,
+        "home_team_id": "cro",
+        "away_team_id": "ita",
+        "date": "2024-06-27T20:00:00Z",
+        "stadium": "Frankfurt Arena",
+        "city": "Frankfurt",
+        "match_category": "Group stage - Matchday 3"
+    },
+    {
+        "match_number": 29,
+        "home_team_id": "eng",
+        "away_team_id": "svn",
+        "date": "2024-06-27T20:00:00Z",
+        "stadium": "Stuttgart Arena",
+        "city": "Stuttgart",
+        "match_category": "Group stage - Matchday 3"
+    },
+    {
+        "match_number": 30,
+        "home_team_id": "den",
+        "away_team_id": "srb",
+        "date": "2024-06-28T20:00:00Z",
+        "stadium": "Munich Football Arena",
+        "city": "Munich",
+        "match_category": "Group stage - Matchday 3"
+    },
+    {
+        "match_number": 31,
+        "home_team_id": "ned",
+        "away_team_id": "aut",
+        "date": "2024-06-28T17:00:00Z",
+        "stadium": "Olympiastadion Berlin",
+        "city": "Berlin",
+        "match_category": "Group stage - Matchday 3"
+    },
+    {
+        "match_number": 32,
+        "home_team_id": "fra",
+        "away_team_id": "pol",
+        "date": "2024-06-29T17:00:00Z",
+        "stadium": "Leipzig Stadium",
+        "city": "Leipzig",
+        "match_category": "Group stage - Matchday 3"
+    },
+    {
+        "match_number": 33,
+        "home_team_id": "svk",
+        "away_team_id": "rou",
+        "date": "2024-06-30T17:00:00Z",
+        "stadium": "Volksparkstadion Hamburg",
+        "city": "Hamburg",
+        "match_category": "Group stage - Matchday 3"
+    },
+    {
+        "match_number": 34,
+        "home_team_id": "ukr",
+        "away_team_id": "bel",
+        "date": "2024-06-30T17:00:00Z",
+        "stadium": "BVB Stadion Dortmund",
+        "city": "Dortmund",
+        "match_category": "Group stage - Matchday 3"
+    },
+    {
+        "match_number": 35,
+        "home_team_id": "geo",
+        "away_team_id": "por",
+        "date": "2024-06-30T20:00:00Z",
+        "stadium": "Arena AufSchalke",
+        "city": "Gelsenkirchen",
+        "match_category": "Group stage - Matchday 3"
+    },
+    {
+        "match_number": 36,
+        "home_team_id": "cze",
+        "away_team_id": "tur",
+        "date": "2024-06-30T20:00:00Z",
+        "stadium": "Düsseldorf Arena",
+        "city": "Düsseldorf",
+        "match_category": "Group stage - Matchday 3"
+    },
+    {
+        "match_number": 37,
+        "home_team_id": "1A",
+        "away_team_id": "2C",
+        "date": "2024-07-01T20:00:00Z",
+        "stadium": "Olympiastadion Berlin",
+        "city": "Berlin",
+        "match_category": "Round of 16"
+    },
+    {
+        "match_number": 38,
+        "home_team_id": "2A",
+        "away_team_id": "2B",
+        "date": "2024-07-01T17:00:00Z",
+        "stadium": "Leipzig Stadium",
+        "city": "Leipzig",
+        "match_category": "Round of 16"
+    },
+    {
+        "match_number": 39,
+        "home_team_id": "1B",
+        "away_team_id": "3A/D/E/F",
+        "date": "2024-07-02T20:00:00Z",
+        "stadium": "Volksparkstadion Hamburg",
+        "city": "Hamburg",
+        "match_category": "Round of 16"
+    },
+    {
+        "match_number": 40,
+        "home_team_id": "1C",
+        "away_team_id": "3D/E/F",
+        "date": "2024-07-02T17:00:00Z",
+        "stadium": "BVB Stadion Dortmund",
+        "city": "Dortmund",
+        "match_category": "Round of 16"
+    },
+    {
+        "match_number": 41,
+        "home_team_id": "1F",
+        "away_team_id": "3A/B/C",
+        "date": "2024-07-03T20:00:00Z",
+        "stadium": "Arena AufSchalke",
+        "city": "Gelsenkirchen",
+        "match_category": "Round of 16"
+    },
+    {
+        "match_number": 42,
+        "home_team_id": "2D",
+        "away_team_id": "2E",
+        "date": "2024-07-03T17:00:00Z",
+        "stadium": "Düsseldorf Arena",
+        "city": "Düsseldorf",
+        "match_category": "Round of 16"
+    },
+    {
+        "match_number": 43,
+        "home_team_id": "1E",
+        "away_team_id": "3A/B/C/D",
+        "date": "2024-07-04T17:00:00Z",
+        "stadium": "Cologne Stadium",
+        "city": "Cologne",
+        "match_category": "Round of 16"
+    },
+    {
+        "match_number": 44,
+        "home_team_id": "1D",
+        "away_team_id": "2F",
+        "date": "2024-07-04T20:00:00Z",
+        "stadium": "Frankfurt Arena",
+        "city": "Frankfurt",
+        "match_category": "Round of 16"
+    },
+    {
+        "match_number": 45,
+        "home_team_id": "W39",
+        "away_team_id": "W37",
+        "date": "2024-07-05T17:00:00Z",
+        "stadium": "Olympiastadion Berlin",
+        "city": "Berlin",
+        "match_category": "Quarter-finals"
+    },
+    {
+        "match_number": 46,
+        "home_team_id": "W41",
+        "away_team_id": "W42",
+        "date": "2024-07-05T20:00:00Z",
+        "stadium": "Leipzig Stadium",
+        "city": "Leipzig",
+        "match_category": "Quarter-finals"
+    },
+    {
+        "match_number": 47,
+        "home_team_id": "W43",
+        "away_team_id": "W44",
+        "date": "2024-07-06T20:00:00Z",
+        "stadium": "Volksparkstadion Hamburg",
+        "city": "Hamburg",
+        "match_category": "Quarter-finals"
+    },
+    {
+        "match_number": 48,
+        "home_team_id": "W40",
+        "away_team_id": "W38",
+        "date": "2024-07-06T17:00:00Z",
+        "stadium": "BVB Stadion Dortmund",
+        "city": "Dortmund",
+        "match_category": "Quarter-finals"
+    },
+    {
+        "match_number": 49,
+        "home_team_id": "W45",
+        "away_team_id": "W46",
+        "date": "2024-07-09T20:00:00Z",
+        "stadium": "Arena AufSchalke",
+        "city": "Gelsenkirchen",
+        "match_category": "Semi-finals"
+    },
+    {
+        "match_number": 50,
+        "home_team_id": "W47",
+        "away_team_id": "W48",
+        "date": "2024-07-10T20:00:00Z",
+        "stadium": "Düsseldorf Arena",
+        "city": "Düsseldorf",
+        "match_category": "Semi-finals"
+    },
+    {
+        "match_number": 51,
+        "home_team_id": "W49",
+        "away_team_id": "W50",
+        "date": "2024-07-14T20:00:00Z",
+        "stadium": "Olympiastadion Berlin",
+        "city": "Berlin",
+        "match_category": "Final"
+    }
+]

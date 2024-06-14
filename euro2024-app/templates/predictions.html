@@ -1,0 +1,130 @@
+{% extends "layouts/default.html" %}
+{% set active_page = "predictions" %}
+
+{% block body %}
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .group {
+            margin-bottom: 30px;
+        }
+        .group-header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .table, .fixtures {
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+        .flash-message {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .flash-success {
+            border-color: #d4edda;
+            background-color: #d4edda;
+            color: #155724;
+        }
+    </style>
+    <header class="section-header" style="margin-top: 50px;">
+        <h1>Euro 2024 Matches</h1>
+    </header>
+    <div id="flash-messages">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="flash-message flash-{{ category }}">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+    </div>
+    {% for match in matches %}
+    <img src="https://img.uefa.com/imgml/flags/240x240/{{ match.home_team._id }}.png" alt="{{ match.home_team.code}}" title="{{ match.home_team.code}}">
+    <div class="group">
+        <div class="group-header">Group {{ match.home_team.group }}</div>
+        <div class="fixtures">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Home Team</th>
+                        <th>Away Team</th>
+                        <th>Date / Venue</th>
+                        <th>Prediction</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr> 
+                        <td class="team"><img src="https://img.uefa.com/imgml/flags/240x240/{{ match.home_team.team_id }}.png" alt="{{ match.home_team.code}}" title="{{ match.home_team.code}}"> {{ match.home_team.name }}</td>
+                        <td class="team"><img src="https://img.uefa.com/imgml/flags/240x240/{{ match.away_team.team_id }}.png" alt="{{ match.away_team.code}}" title="{{ match.away_team.code}}"> {{ match.away_team.name }}</td>
+                        <td>{{ match.formatted_date }} <br> {{ match.stadium }} </td>
+                        <td>
+                            {% if match.prediction_status == 'N/A' %}
+                            <button disabled>N/A</button>
+                            {% elif match.prediction_status == 'submit' %}
+                            <input type="number" id="home_score-{{ match._id }}" placeholder="Home score">
+                            <input type="number" id="away_score-{{ match._id }}" placeholder="Away score">
+                            <button onclick="submitPrediction('{{ match._id }}')">Submit</button>
+                            {% elif match.prediction_status == 'edit' %}
+                            <input type="number" id="home_score-{{ match._id }}" value="{{ match.prediction.home_score }}">
+                            <input type="number" id="away_score-{{ match._id }}" value="{{ match.prediction.away_score }}">
+                            <button onclick="editPrediction('{{ match._id }}')">Edit</button>
+                            {% endif %}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    {% endfor %}
+
+    <script>
+        function submitPrediction(matchId) {
+            var homeScore = $('#home_score-' + matchId).val();
+            var awayScore = $('#away_score-' + matchId).val();
+            $.post('/submit_prediction', {match_id: matchId, home_score: homeScore, away_score: awayScore}, function(data) {
+                if (data.status === 'success') {
+                    flashMessage('Prediction submitted successfully!', 'success');
+                }
+            });
+        }
+
+        function editPrediction(matchId) {
+            var homeScore = $('#home_score-' + matchId).val();
+            var awayScore = $('#away_score-' + matchId).val();
+            $.post('/submit_prediction', {match_id: matchId, home_score: homeScore, away_score: awayScore}, function(data) {
+                if (data.status === 'success') {
+                    flashMessage('Prediction updated successfully!', 'success');
+                }
+            });
+        }
+
+        function flashMessage(message, category) {
+            var flashMessageDiv = $('<div class="flash-message flash-' + category + '">' + message + '</div>');
+            $('#flash-messages').append(flashMessageDiv);
+            setTimeout(function() {
+                flashMessageDiv.fadeOut(function() {
+                    $(this).remove();
+                });
+            }, 5000);
+        }
+    </script>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% block content %}
+<header id="header" '{% if not home %}}' class="user-header" '{% endif %}'>
+  <div class="container-fluid">
+
+    <div id="logo" class="pull-left">
+      <h1><a href="#intro" class="scrollto">EURO 2024 Challenge</a></h1>
+    </div>
+
+    <nav id="nav-menu-container">
+      <ul class="nav-menu">
+        <li '{% if 'home' == active_page %}' class="menu-active" '{% endif%}'><a href="/">Home</a></li>
+        <li '{% if 'about' == active_page %}' class="menu-active" '{% endif%}'><a href="/about">About</a></li>
+        <li '{% if 'schedule' == active_page %}' class="menu-active" '{% endif%}'><a href="/schedule">Schedule</a></li>
+        {%if 'user_id' in session %}
+          <li '{% if 'predictions' == active_page %}' class="menu-active" '{% endif%}'><a href="/predictions">My Predictions</a></li>
+        {% endif %}
+        <li><a href="/#contact">Contact</a></li>
+        {%if 'user_id' not in session %}
+          <li '{% if 'register' == active_page %}' class="menu-active" '{% endif%}' ><a href="/register">Register</a></li>
+          <li '{% if 'login' == active_page %}' class="menu-active" '{% endif%}'><a href="/login">Login</a></li>
+        {% else %}
+          <li><a href="/logout">Logout</a></li>
+        {% endif %}
+      </ul>
+    </nav><!-- #nav-menu-container -->
+  </div>
+</header>
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends "layouts/default.html" %}
+{% set active_page = "register" %}
+
+{% block body %}
+
+    <header class="section-header" style="margin-top: 50px;">
+      <h3>Sign up</h3>
+      <p>Please register to make awesome predictions</p>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        {% for message in form.nickname.errors %}
+          <div class="flash">{{ message }}</div>
+        {% endfor %}
+         
+        {% for message in form.email.errors %}
+          <div class="flash">{{ message }}</div>
+        {% endfor %}
+         
+        {% for message in form.password.errors %}
+          <div class="flash">{{ message }}</div>
+        {% endfor %}
+     
+        <form action="{{ url_for('register') }}" method=post>
+          {{ form.hidden_tag() }}
+           
+          {{ form.nickname.label }}
+          {{ form.nickname }}
+           
+          {{ form.email.label }}
+          {{ form.email }}
+           
+          {{ form.password.label }}
+          {{ form.password }}
+           
+          {{ form.submit }}
+        </form>
+      </div>
+    </div>
+
+     
+{% endblock %}
