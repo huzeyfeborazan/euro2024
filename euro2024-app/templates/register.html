@@ -24,17 +24,23 @@
      
         <form action="{{ url_for('register') }}" method=post>
           {{ form.hidden_tag() }}
-           
-          {{ form.nickname.label }}
-          {{ form.nickname }}
-           
-          {{ form.email.label }}
-          {{ form.email }}
-           
-          {{ form.password.label }}
-          {{ form.password }}
-           
-          {{ form.submit }}
+          <table style="padding-bottom: 30px;">
+            <tr>
+              <td> {{ form.nickname.label }} </td>
+              <td> {{ form.nickname }} </td>
+            </tr>
+            <tr>
+              <td>{{ form.email.label }}</td>
+              <td>{{ form.email }}</td>
+            </tr>
+            <tr>
+              <td>{{ form.password.label }}</td>
+              <td>{{ form.password }}</td>
+            </tr>
+            <tr>
+              <td>{{ form.submit }}</td>
+            </tr>
+          </table>
         </form>
       </div>
     </div>
