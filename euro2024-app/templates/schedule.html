@@ -5,7 +5,7 @@
 
 	<header class="section-header" style="margin-top: 50px;">
       <h3>Teams</h3>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+      <p>There are 6 groups and 24 teams this years Euro Cup.</p>
     </header>
 
     <div class="row">
@@ -13,26 +13,20 @@
     	<table class="table table-striped">
 		  <thead>
 		    <tr>
-		      <th scope="col">#</th>
-		      <th scope="col">Team</th>
-		      <th scope="col">MP</th>
-		      <th scope="col">GF</th>
-		      <th scope="col">GA</th>
-		      <th scope="col">P</th>
+			<th scope="col">#</th>
+		      <th scope="col">Group</th>
+		      <th scope="col">Team Name</th>
 		    </tr>
 		  </thead>
-		  <tbody>
+		  <tbody> 
 		  	{% for team in teams %}
 		  		<tr>
-			      <th scope="row">{{loop.index}}</th>
+			      <td>{{loop.index}}</th>
+				  <td>{{ team.group}}</td>
 			      <td class="team">
 					<img src="https://img.uefa.com/imgml/flags/240x240/{{ team._id }}.png" alt="{{ team.code}}" title="{{ team.code}}">
 			      	{{ team.name }}
 			      </td>
-			      <td>0</td>
-			      <td>0</td>
-			      <td>0</td>
-			      <td>0</td>
 			    </tr>
 			{% endfor %}
 		  </tbody>
