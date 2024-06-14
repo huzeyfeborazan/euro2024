@@ -86,7 +86,7 @@
                             {% elif match.prediction_status == 'edit' %}
                             <input type="number" id="home_score-{{ match._id }}" value="{{ match.prediction.home_score }}">
                             <input type="number" id="away_score-{{ match._id }}" value="{{ match.prediction.away_score }}">
-                            <button onclick="editPrediction('{{ match._id }}')">Edit</button>
+                            <button onclick="editPrediction('{{ match._id }}')">Update</button>
                             {% endif %}
                         </td>
                     </tr>

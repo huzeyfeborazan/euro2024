@@ -74,7 +74,8 @@ def list_predictions():
             time_diff = match_time - now
             prediction = match.get_predictions(user_id)
             
-            if time_diff < timedelta(hours=1.5) or now > match_time:
+            if now > match_time:
+            #if time_diff < timedelta(hours=1) or now > match_time:
                 match_data['prediction_status'] = 'N/A'
             elif prediction:
                 match_data['prediction_status'] = 'edit'
@@ -99,7 +100,6 @@ def submit_prediction():
     
     prediction = Prediction(user_id, ObjectId(match_id), home_score, away_score)
     prediction.save()
-    flash('Prediction submitted successfully!', 'success')
     return jsonify({'status': 'success', 'home_score': home_score, 'away_score': away_score})
 
 
